@@ -69,7 +69,8 @@ def process_video(video_path, title="", description=""):
 ```
 
 ### 5. **Train Classifier**:
-A Random Forest classifier is trained on labeled data and used to classify new videos.
+A Random Forest classifier is trained on labeled data and used to classify new videos. 
+**-----Important: Do not run this if you do not have the specified csv file containing the processesed data in the mentioned location----** 
 
 ```python
 def classify_video(features):
